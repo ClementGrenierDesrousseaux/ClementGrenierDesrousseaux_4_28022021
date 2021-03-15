@@ -847,9 +847,13 @@ li a:focus {
     border-bottom: 2px solid black;
 }
 
-.portfolio-row a:focus,
+.portfolio-row a:focus {
+    border: 2px solid black;
+}
+
 .btn:focus {
     border: 2px solid black;
+    background: #c27956!important;
 }
 
 .img-responsive,
